@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomOverlayViewController" customModule="soffa" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="CustomOverlayView" id="i5M-Pr-FkT" customClass="CustomOverlayView" customModule="soffa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xp6-Aq-gwY">
+                    <rect key="frame" x="0.0" y="20" width="375" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cameral roll" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52y-QI-ePr">
+                            <rect key="frame" x="142" y="0.0" width="91.5" height="50"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJn-fa-gmL">
+                            <rect key="frame" x="20" y="0.0" width="48" height="50"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelButtonTappedWithSender:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="rOB-xa-9VV"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="52y-QI-ePr" firstAttribute="centerX" secondItem="xp6-Aq-gwY" secondAttribute="centerX" id="79w-CW-JXR"/>
+                        <constraint firstAttribute="bottom" secondItem="52y-QI-ePr" secondAttribute="bottom" id="VOh-33-G2j"/>
+                        <constraint firstItem="52y-QI-ePr" firstAttribute="top" secondItem="xp6-Aq-gwY" secondAttribute="top" id="ZOh-MJ-FKi"/>
+                        <constraint firstItem="zJn-fa-gmL" firstAttribute="top" secondItem="xp6-Aq-gwY" secondAttribute="top" id="evC-8x-v3Y"/>
+                        <constraint firstItem="zJn-fa-gmL" firstAttribute="leading" secondItem="xp6-Aq-gwY" secondAttribute="leading" constant="20" id="gKq-dt-5l5"/>
+                        <constraint firstAttribute="bottom" secondItem="zJn-fa-gmL" secondAttribute="bottom" id="lQg-pF-Hqo"/>
+                        <constraint firstAttribute="height" constant="50" id="zH4-P6-6wa"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kc0-5A-a4H">
+                    <rect key="frame" x="0.0" y="492" width="375" height="175"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yTw-6N-rBL">
+                            <rect key="frame" x="147.5" y="47.5" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="1cw-dN-1U5"/>
+                                <constraint firstAttribute="width" constant="80" id="pNK-YF-hFn"/>
+                            </constraints>
+                            <state key="normal" image="camera_capture"/>
+                            <connections>
+                                <action selector="takeButtonTappedWithSender:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="NUq-3S-VvL"/>
+                            </connections>
+                        </button>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Xyf-wS-9J9">
+                            <rect key="frame" x="112.5" y="137" width="150" height="30"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7BG-6Z-Bk6">
+                                    <rect key="frame" x="0.0" y="0.0" width="75" height="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <state key="normal" title="Camera">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLa-ib-l9w">
+                                    <rect key="frame" x="75" y="0.0" width="75" height="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <state key="normal" title="Library">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="PKe-bY-W1a"/>
+                                <constraint firstAttribute="width" constant="150" id="fAU-9h-PWW"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="yTw-6N-rBL" firstAttribute="centerX" secondItem="kc0-5A-a4H" secondAttribute="centerX" id="Dsm-7t-agF"/>
+                        <constraint firstItem="yTw-6N-rBL" firstAttribute="centerY" secondItem="kc0-5A-a4H" secondAttribute="centerY" id="MLm-TX-Wel"/>
+                        <constraint firstAttribute="bottom" secondItem="Xyf-wS-9J9" secondAttribute="bottom" constant="8" id="ZIv-ly-XEu"/>
+                        <constraint firstItem="Xyf-wS-9J9" firstAttribute="centerX" secondItem="kc0-5A-a4H" secondAttribute="centerX" id="otM-eF-Lvd"/>
+                        <constraint firstAttribute="height" constant="175" id="rvj-Wh-RXH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="kc0-5A-a4H" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="JG2-ol-Vyq"/>
+                <constraint firstItem="kc0-5A-a4H" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="a9C-Hp-s1Z"/>
+                <constraint firstItem="kc0-5A-a4H" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ekN-jN-2Xa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xp6-Aq-gwY" secondAttribute="trailing" id="m42-x0-Q3X"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="xp6-Aq-gwY" secondAttribute="top" id="qG6-oJ-kOo"/>
+                <constraint firstItem="xp6-Aq-gwY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="tMo-Br-8ix"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <connections>
+                <outlet property="buttonLibrary" destination="PLa-ib-l9w" id="iaD-TC-r41"/>
+            </connections>
+            <point key="canvasLocation" x="32.5" y="55.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera_capture" width="152" height="152"/>
+    </resources>
+</document>

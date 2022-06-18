@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="PlatePhotoPopupView" id="NDp-iK-IKw" customClass="PlatePhotoPopupView" customModule="soffa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="unV-qg-b5y">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rez-7l-1Tm">
+                    <rect key="frame" x="20" y="253.5" width="335" height="180"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OjF-F2-1eN">
+                            <rect key="frame" x="8" y="36.5" width="319" height="43"/>
+                            <string key="text">Take a picture of your
+car plate</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" red="0.13725490200000001" green="0.59607843140000005" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stand in front of your car and center your camera. Make sure all four corner of the plate are clearly visible." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0a5-rv-ffs">
+                            <rect key="frame" x="8" y="87.5" width="319" height="57.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="OjF-F2-1eN" firstAttribute="top" secondItem="Rez-7l-1Tm" secondAttribute="top" constant="36.5" id="QUK-dx-jll"/>
+                        <constraint firstAttribute="trailing" secondItem="OjF-F2-1eN" secondAttribute="trailing" constant="8" id="Rdy-08-24V"/>
+                        <constraint firstAttribute="height" constant="180" id="TuB-Ty-K9F"/>
+                        <constraint firstItem="OjF-F2-1eN" firstAttribute="leading" secondItem="Rez-7l-1Tm" secondAttribute="leading" constant="8" id="hSa-Af-BQG"/>
+                        <constraint firstItem="0a5-rv-ffs" firstAttribute="leading" secondItem="Rez-7l-1Tm" secondAttribute="leading" constant="8" id="oBO-Pp-MiX"/>
+                        <constraint firstItem="0a5-rv-ffs" firstAttribute="top" secondItem="OjF-F2-1eN" secondAttribute="bottom" constant="8" id="usb-nE-8MQ"/>
+                        <constraint firstAttribute="trailing" secondItem="0a5-rv-ffs" secondAttribute="trailing" constant="8" id="yla-K2-oo2"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Su-10-L3G">
+                    <rect key="frame" x="330" y="230" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="OFE-lM-P4n"/>
+                        <constraint firstAttribute="width" constant="40" id="QFF-GD-Xqc"/>
+                    </constraints>
+                    <state key="normal" image="close_popup"/>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Rez-7l-1Tm" firstAttribute="top" secondItem="pTt-lt-vWU" secondAttribute="top" constant="217" id="6QL-B3-FNw"/>
+                <constraint firstItem="2Su-10-L3G" firstAttribute="leading" secondItem="Rez-7l-1Tm" secondAttribute="trailing" constant="-25" id="8Tr-Tg-NIS"/>
+                <constraint firstItem="unV-qg-b5y" firstAttribute="top" secondItem="NDp-iK-IKw" secondAttribute="top" id="DBq-LV-nkQ"/>
+                <constraint firstItem="Rez-7l-1Tm" firstAttribute="centerY" secondItem="pTt-lt-vWU" secondAttribute="centerY" id="FcP-Ob-JKg"/>
+                <constraint firstItem="unV-qg-b5y" firstAttribute="trailing" secondItem="pTt-lt-vWU" secondAttribute="trailing" id="HnK-6O-Gwd"/>
+                <constraint firstItem="Rez-7l-1Tm" firstAttribute="leading" secondItem="pTt-lt-vWU" secondAttribute="leading" constant="20" id="Oqa-KJ-Xaz"/>
+                <constraint firstItem="pTt-lt-vWU" firstAttribute="bottom" secondItem="Rez-7l-1Tm" secondAttribute="bottom" constant="238" id="Qnq-Q2-lDq"/>
+                <constraint firstItem="unV-qg-b5y" firstAttribute="bottom" secondItem="pTt-lt-vWU" secondAttribute="bottom" id="To9-4I-7GY"/>
+                <constraint firstItem="Rez-7l-1Tm" firstAttribute="top" secondItem="2Su-10-L3G" secondAttribute="bottom" constant="-16.5" id="Urf-MU-Tg0"/>
+                <constraint firstItem="unV-qg-b5y" firstAttribute="leading" secondItem="pTt-lt-vWU" secondAttribute="leading" id="X59-d8-Rum"/>
+                <constraint firstItem="pTt-lt-vWU" firstAttribute="trailing" secondItem="Rez-7l-1Tm" secondAttribute="trailing" constant="20" id="muO-IP-M5L"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="pTt-lt-vWU"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Qnq-Q2-lDq"/>
+                    <exclude reference="6QL-B3-FNw"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="buttonClose" destination="2Su-10-L3G" id="02p-ZR-Mjd"/>
+                <outlet property="contentView" destination="Rez-7l-1Tm" id="7rs-0f-7PL"/>
+                <outlet property="shadowView" destination="unV-qg-b5y" id="4jA-mV-8e6"/>
+            </connections>
+            <point key="canvasLocation" x="-49.5" y="57.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close_popup" width="86" height="86"/>
+    </resources>
+</document>

@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABB3CAF5A29E966BDAF4D2A /* Pods_soffa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7878A1B342CA270A51D71544 /* Pods_soffa.framework */; };
+		421A29E41FC855E900CB6155 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421A29E31FC855E900CB6155 /* Country.swift */; };
+		421A29E71FC856E100CB6155 /* CountriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421A29E51FC856E100CB6155 /* CountriesTableViewCell.swift */; };
+		421A29E81FC856E100CB6155 /* CountriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 421A29E61FC856E100CB6155 /* CountriesTableViewCell.xib */; };
+		421A29EA1FC85C9400CB6155 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 421A29E91FC859F900CB6155 /* countries.json */; };
+		425343E1201BD0D300881041 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425343E0201BD0D300881041 /* PaymentMethod.swift */; };
+		42683E94202C4CDF00D87F6A /* SearchLocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42683E92202C4CDF00D87F6A /* SearchLocationTableViewCell.swift */; };
+		42683E95202C4CDF00D87F6A /* SearchLocationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42683E93202C4CDF00D87F6A /* SearchLocationTableViewCell.xib */; };
+		427254921FC81ED9003B107C /* SwiftOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427254911FC81ED9003B107C /* SwiftOverlays.swift */; };
+		427254941FC82F00003B107C /* CountriesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 427254931FC82F00003B107C /* CountriesView.xib */; };
+		427254961FC82F30003B107C /* CountriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427254951FC82F30003B107C /* CountriesView.swift */; };
+		427D38FB2035DFF3002872C2 /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D38F92035DFF3002872C2 /* PaymentTableViewCell.swift */; };
+		427D38FC2035DFF3002872C2 /* PaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 427D38FA2035DFF3002872C2 /* PaymentTableViewCell.xib */; };
+		42839AD11FC434AA008EB4BA /* PlateErrorPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42839ACD1FC434A9008EB4BA /* PlateErrorPopupView.swift */; };
+		42839AD21FC434AA008EB4BA /* PlatePhotoPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42839ACF1FC434A9008EB4BA /* PlatePhotoPopupView.swift */; };
+		42839AD41FC43B35008EB4BA /* PlatePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42839AD31FC43B35008EB4BA /* PlatePhotoViewController.swift */; };
+		42839AD61FC43C3E008EB4BA /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42839AD51FC43C3E008EB4BA /* CustomOverlayView.swift */; };
+		42839AD91FC45083008EB4BA /* CustomOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42839AD71FC45083008EB4BA /* CustomOverlayViewController.swift */; };
+		42839ADA1FC45083008EB4BA /* CustomOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42839AD81FC45083008EB4BA /* CustomOverlayViewController.xib */; };
+		42839AE01FC476B1008EB4BA /* ParkingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42839ADE1FC476B1008EB4BA /* ParkingTableViewCell.swift */; };
+		42839AE11FC476B1008EB4BA /* ParkingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42839ADF1FC476B1008EB4BA /* ParkingTableViewCell.xib */; };
+		42839AE31FC47923008EB4BA /* ToolbarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42839AE21FC47923008EB4BA /* ToolbarView.xib */; };
+		42839AE51FC47B95008EB4BA /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42839AE41FC47B95008EB4BA /* ToolbarView.swift */; };
+		428639771FC572790072C211 /* MapPinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428639761FC572790072C211 /* MapPinView.xib */; };
+		428639791FC57D7E0072C211 /* MapPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428639781FC57D7E0072C211 /* MapPinView.swift */; };
+		4286397D1FC57EC80072C211 /* PlatePhotoPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4286397C1FC57EC80072C211 /* PlatePhotoPopupView.xib */; };
+		4286397F1FC57F870072C211 /* PlateErrorPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4286397E1FC57F870072C211 /* PlateErrorPopupView.xib */; };
+		428639811FC58EF60072C211 /* LoyaltyPointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428639801FC58EF60072C211 /* LoyaltyPointsViewController.swift */; };
+		428639831FC5A5980072C211 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428639821FC5A5980072C211 /* ProfileViewController.swift */; };
+		428639861FC5AE8A0072C211 /* MyVehicleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428639841FC5AE8A0072C211 /* MyVehicleTableViewCell.swift */; };
+		428639871FC5AE8A0072C211 /* MyVehicleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428639851FC5AE8A0072C211 /* MyVehicleTableViewCell.xib */; };
+		428639891FC5AFBB0072C211 /* MyVehiclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428639881FC5AFBB0072C211 /* MyVehiclesViewController.swift */; };
+		4286398B1FC5B5A80072C211 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286398A1FC5B5A80072C211 /* EditProfileViewController.swift */; };
+		4286398D1FC5CAD70072C211 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286398C1FC5CAD70072C211 /* ChangePasswordViewController.swift */; };
+		428639901FC5CB1D0072C211 /* PaymentHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286398E1FC5CB1D0072C211 /* PaymentHistoryTableViewCell.swift */; };
+		428639911FC5CB1D0072C211 /* PaymentHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4286398F1FC5CB1D0072C211 /* PaymentHistoryTableViewCell.xib */; };
+		428639931FC5CDDC0072C211 /* PaymentHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428639921FC5CDDC0072C211 /* PaymentHistoryViewController.swift */; };
+		428639951FC5D2A10072C211 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428639941FC5D2A10072C211 /* SettingsViewController.swift */; };
+		428639971FC5DB920072C211 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428639961FC5DB920072C211 /* ContactUsViewController.swift */; };
+		428639991FC5E3590072C211 /* DatabaseObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428639981FC5E3590072C211 /* DatabaseObjects.swift */; };
+		4286399D1FC5E6910072C211 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286399C1FC5E6910072C211 /* User.swift */; };
+		4286399F1FC5E88A0072C211 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286399E1FC5E88A0072C211 /* Vehicle.swift */; };
+		428639A11FC5E90F0072C211 /* Parking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428639A01FC5E90F0072C211 /* Parking.swift */; };
+		428639A31FC5EB2B0072C211 /* PaymentHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428639A21FC5EB2B0072C211 /* PaymentHistory.swift */; };
+		429F5BB41FC42E1400165A14 /* SignupPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 429F5BB31FC42E1400165A14 /* SignupPopupView.xib */; };
+		429F5BB61FC4320600165A14 /* SignupPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429F5BB51FC4320600165A14 /* SignupPopupView.swift */; };
+		429FD21D1FC204A6000BDBB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429FD21C1FC204A6000BDBB1 /* AppDelegate.swift */; };
+		429FD21F1FC204A6000BDBB1 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429FD21E1FC204A6000BDBB1 /* InitialViewController.swift */; };
+		429FD2221FC204A6000BDBB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429FD2201FC204A6000BDBB1 /* Main.storyboard */; };
+		429FD2241FC204A6000BDBB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 429FD2231FC204A6000BDBB1 /* Assets.xcassets */; };
+		429FD2271FC204A6000BDBB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429FD2251FC204A6000BDBB1 /* LaunchScreen.storyboard */; };
+		429FD2301FC2227D000BDBB1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429FD22F1FC2227D000BDBB1 /* LoginViewController.swift */; };
+		429FD2321FC22297000BDBB1 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429FD2311FC22297000BDBB1 /* ForgotPasswordViewController.swift */; };
+		429FD2341FC222B6000BDBB1 /* IntroPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429FD2331FC222B6000BDBB1 /* IntroPageViewController.swift */; };
+		429FD2361FC222D5000BDBB1 /* Intro1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429FD2351FC222D5000BDBB1 /* Intro1ViewController.swift */; };
+		429FD2381FC222E0000BDBB1 /* Intro2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429FD2371FC222E0000BDBB1 /* Intro2ViewController.swift */; };
+		429FD23A1FC222E9000BDBB1 /* Intro3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429FD2391FC222E9000BDBB1 /* Intro3ViewController.swift */; };
+		429FD23C1FC222F5000BDBB1 /* Intro4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429FD23B1FC222F5000BDBB1 /* Intro4ViewController.swift */; };
+		429FD23E1FC22301000BDBB1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429FD23D1FC22301000BDBB1 /* BaseViewController.swift */; };
+		429FD2401FC2292C000BDBB1 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429FD23F1FC2292C000BDBB1 /* IntroViewController.swift */; };
+		42A32B581FC4E3F9009C227D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A32B571FC4E3F9009C227D /* MenuViewController.swift */; };
+		42A32B5B1FC4E586009C227D /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A32B591FC4E586009C227D /* MenuTableViewCell.swift */; };
+		42A32B5C1FC4E586009C227D /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42A32B5A1FC4E586009C227D /* MenuTableViewCell.xib */; };
+		42A32B5E1FC4EAA3009C227D /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A32B5D1FC4EAA3009C227D /* DashboardViewController.swift */; };
+		42A32B611FC4EDAF009C227D /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A32B601FC4EDAF009C227D /* RegistrationViewController.swift */; };
+		42A32B631FC4EDF1009C227D /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A32B621FC4EDF1009C227D /* PaymentViewController.swift */; };
+		42A32B651FC4EE27009C227D /* ParkingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A32B641FC4EE27009C227D /* ParkingsViewController.swift */; };
+		42A32B681FC4F098009C227D /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A32B671FC4F098009C227D /* SideMenuViewController.swift */; };
+		42C1B0B5201C777200F71DF9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1B0B4201C777200F71DF9 /* WebViewController.swift */; };
+		42C2BB3D1FE7CA58001BCF23 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C2BB3A1FE7CA57001BCF23 /* FBSDKLoginKit.framework */; };
+		42C2BB3E1FE7CA58001BCF23 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C2BB3B1FE7CA57001BCF23 /* Bolts.framework */; };
+		42C2BB3F1FE7CA58001BCF23 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C2BB3C1FE7CA57001BCF23 /* FBSDKCoreKit.framework */; };
+		42CA8D391FDC874B00DBAABF /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A664CB1FD85EDF00EED7E7 /* GoogleMaps.framework */; };
+		42CA8D3A1FDC874B00DBAABF /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A664CC1FD85EE000EED7E7 /* GoogleMapsCore.framework */; };
+		42E974981FE10F88008D95A0 /* ExcludedParking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E974971FE10F88008D95A0 /* ExcludedParking.swift */; };
+		42EB9CD61FC32CDD00B9C055 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB9CD51FC32CDD00B9C055 /* SignupViewController.swift */; };
+		42EB9CD81FC32E6500B9C055 /* AppDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB9CD71FC32E6500B9C055 /* AppDefaults.swift */; };
+		42EB9CDA1FC32EF900B9C055 /* PhoneVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB9CD91FC32EF900B9C055 /* PhoneVerificationViewController.swift */; };
+		42EB9CDC1FC32F2300B9C055 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB9CDB1FC32F2300B9C055 /* Extensions.swift */; };
+		42EB9CDE1FC32F4000B9C055 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB9CDD1FC32F4000B9C055 /* Services.swift */; };
+		42EB9CE01FC32FD000B9C055 /* Alamofire+Synchronous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB9CDF1FC32FD000B9C055 /* Alamofire+Synchronous.swift */; };
+		42FC8DEE2020A88A000CBC0E /* MapPinSmallView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FC8DED2020A88A000CBC0E /* MapPinSmallView.xib */; };
+		42FC8DF02020A89B000CBC0E /* MapPinSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FC8DEF2020A89B000CBC0E /* MapPinSmallView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		421A29E31FC855E900CB6155 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		421A29E51FC856E100CB6155 /* CountriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewCell.swift; sourceTree = "<group>"; };
+		421A29E61FC856E100CB6155 /* CountriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountriesTableViewCell.xib; sourceTree = "<group>"; };
+		421A29E91FC859F900CB6155 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		425343E0201BD0D300881041 /* PaymentMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		42683E92202C4CDF00D87F6A /* SearchLocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationTableViewCell.swift; sourceTree = "<group>"; };
+		42683E93202C4CDF00D87F6A /* SearchLocationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchLocationTableViewCell.xib; sourceTree = "<group>"; };
+		427254911FC81ED9003B107C /* SwiftOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOverlays.swift; sourceTree = "<group>"; };
+		427254931FC82F00003B107C /* CountriesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountriesView.xib; sourceTree = "<group>"; };
+		427254951FC82F30003B107C /* CountriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesView.swift; sourceTree = "<group>"; };
+		427D38F92035DFF3002872C2 /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
+		427D38FA2035DFF3002872C2 /* PaymentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentTableViewCell.xib; sourceTree = "<group>"; };
+		42839ACD1FC434A9008EB4BA /* PlateErrorPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateErrorPopupView.swift; sourceTree = "<group>"; };
+		42839ACF1FC434A9008EB4BA /* PlatePhotoPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatePhotoPopupView.swift; sourceTree = "<group>"; };
+		42839AD31FC43B35008EB4BA /* PlatePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatePhotoViewController.swift; sourceTree = "<group>"; };
+		42839AD51FC43C3E008EB4BA /* CustomOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		42839AD71FC45083008EB4BA /* CustomOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOverlayViewController.swift; sourceTree = "<group>"; };
+		42839AD81FC45083008EB4BA /* CustomOverlayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomOverlayViewController.xib; sourceTree = "<group>"; };
+		42839ADE1FC476B1008EB4BA /* ParkingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingTableViewCell.swift; sourceTree = "<group>"; };
+		42839ADF1FC476B1008EB4BA /* ParkingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParkingTableViewCell.xib; sourceTree = "<group>"; };
+		42839AE21FC47923008EB4BA /* ToolbarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToolbarView.xib; sourceTree = "<group>"; };
+		42839AE41FC47B95008EB4BA /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		428639761FC572790072C211 /* MapPinView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapPinView.xib; sourceTree = "<group>"; };
+		428639781FC57D7E0072C211 /* MapPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPinView.swift; sourceTree = "<group>"; };
+		4286397C1FC57EC80072C211 /* PlatePhotoPopupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlatePhotoPopupView.xib; sourceTree = "<group>"; };
+		4286397E1FC57F870072C211 /* PlateErrorPopupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlateErrorPopupView.xib; sourceTree = "<group>"; };
+		428639801FC58EF60072C211 /* LoyaltyPointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyPointsViewController.swift; sourceTree = "<group>"; };
+		428639821FC5A5980072C211 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		428639841FC5AE8A0072C211 /* MyVehicleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehicleTableViewCell.swift; sourceTree = "<group>"; };
+		428639851FC5AE8A0072C211 /* MyVehicleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyVehicleTableViewCell.xib; sourceTree = "<group>"; };
+		428639881FC5AFBB0072C211 /* MyVehiclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehiclesViewController.swift; sourceTree = "<group>"; };
+		4286398A1FC5B5A80072C211 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		4286398C1FC5CAD70072C211 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		4286398E1FC5CB1D0072C211 /* PaymentHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		4286398F1FC5CB1D0072C211 /* PaymentHistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		428639921FC5CDDC0072C211 /* PaymentHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHistoryViewController.swift; sourceTree = "<group>"; };
+		428639941FC5D2A10072C211 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		428639961FC5DB920072C211 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		428639981FC5E3590072C211 /* DatabaseObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Database\U0010Objects.swift"; sourceTree = "<group>"; };
+		4286399C1FC5E6910072C211 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4286399E1FC5E88A0072C211 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		428639A01FC5E90F0072C211 /* Parking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking.swift; sourceTree = "<group>"; };
+		428639A21FC5EB2B0072C211 /* PaymentHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHistory.swift; sourceTree = "<group>"; };
+		429F5BB31FC42E1400165A14 /* SignupPopupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupPopupView.xib; sourceTree = "<group>"; };
+		429F5BB51FC4320600165A14 /* SignupPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPopupView.swift; sourceTree = "<group>"; };
+		429FD2191FC204A6000BDBB1 /* soffa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soffa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		429FD21C1FC204A6000BDBB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		429FD21E1FC204A6000BDBB1 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		429FD2211FC204A6000BDBB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		429FD2231FC204A6000BDBB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		429FD2261FC204A6000BDBB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		429FD2281FC204A6000BDBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429FD22F1FC2227D000BDBB1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		429FD2311FC22297000BDBB1 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		429FD2331FC222B6000BDBB1 /* IntroPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPageViewController.swift; sourceTree = "<group>"; };
+		429FD2351FC222D5000BDBB1 /* Intro1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro1ViewController.swift; sourceTree = "<group>"; };
+		429FD2371FC222E0000BDBB1 /* Intro2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro2ViewController.swift; sourceTree = "<group>"; };
+		429FD2391FC222E9000BDBB1 /* Intro3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro3ViewController.swift; sourceTree = "<group>"; };
+		429FD23B1FC222F5000BDBB1 /* Intro4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro4ViewController.swift; sourceTree = "<group>"; };
+		429FD23D1FC22301000BDBB1 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		429FD23F1FC2292C000BDBB1 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		42A32B571FC4E3F9009C227D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		42A32B591FC4E586009C227D /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		42A32B5A1FC4E586009C227D /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		42A32B5D1FC4EAA3009C227D /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		42A32B601FC4EDAF009C227D /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		42A32B621FC4EDF1009C227D /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		42A32B641FC4EE27009C227D /* ParkingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingsViewController.swift; sourceTree = "<group>"; };
+		42A32B671FC4F098009C227D /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		42A664CB1FD85EDF00EED7E7 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		42A664CC1FD85EE000EED7E7 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		42C1B0B4201C777200F71DF9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		42C2BB3A1FE7CA57001BCF23 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		42C2BB3B1FE7CA57001BCF23 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		42C2BB3C1FE7CA57001BCF23 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		42E974971FE10F88008D95A0 /* ExcludedParking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcludedParking.swift; sourceTree = "<group>"; };
+		42EB9CD51FC32CDD00B9C055 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		42EB9CD71FC32E6500B9C055 /* AppDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefaults.swift; sourceTree = "<group>"; };
+		42EB9CD91FC32EF900B9C055 /* PhoneVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVerificationViewController.swift; sourceTree = "<group>"; };
+		42EB9CDB1FC32F2300B9C055 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		42EB9CDD1FC32F4000B9C055 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		42EB9CDF1FC32FD000B9C055 /* Alamofire+Synchronous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire+Synchronous.swift"; sourceTree = "<group>"; };
+		42FC8DED2020A88A000CBC0E /* MapPinSmallView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapPinSmallView.xib; sourceTree = "<group>"; };
+		42FC8DEF2020A89B000CBC0E /* MapPinSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPinSmallView.swift; sourceTree = "<group>"; };
+		4E1229703BC945C637D46286 /* Pods-soffa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soffa.release.xcconfig"; path = "Pods/Target Support Files/Pods-soffa/Pods-soffa.release.xcconfig"; sourceTree = "<group>"; };
+		7878A1B342CA270A51D71544 /* Pods_soffa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_soffa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		884E25E42554DEFCE6B16234 /* Pods-soffa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soffa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-soffa/Pods-soffa.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		429FD2161FC204A6000BDBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C2BB3E1FE7CA58001BCF23 /* Bolts.framework in Frameworks */,
+				42C2BB3F1FE7CA58001BCF23 /* FBSDKCoreKit.framework in Frameworks */,
+				42CA8D391FDC874B00DBAABF /* GoogleMaps.framework in Frameworks */,
+				42CA8D3A1FDC874B00DBAABF /* GoogleMapsCore.framework in Frameworks */,
+				42C2BB3D1FE7CA58001BCF23 /* FBSDKLoginKit.framework in Frameworks */,
+				1ABB3CAF5A29E966BDAF4D2A /* Pods_soffa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4286399A1FC5E51B0072C211 /* DatabaseObjects */ = {
+			isa = PBXGroup;
+			children = (
+				425343E0201BD0D300881041 /* PaymentMethod.swift */,
+				42E974971FE10F88008D95A0 /* ExcludedParking.swift */,
+				4286399C1FC5E6910072C211 /* User.swift */,
+				4286399E1FC5E88A0072C211 /* Vehicle.swift */,
+				428639A01FC5E90F0072C211 /* Parking.swift */,
+				428639A21FC5EB2B0072C211 /* PaymentHistory.swift */,
+				421A29E31FC855E900CB6155 /* Country.swift */,
+			);
+			path = DatabaseObjects;
+			sourceTree = "<group>";
+		};
+		429F5BB21FC42DED00165A14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42839ACD1FC434A9008EB4BA /* PlateErrorPopupView.swift */,
+				4286397E1FC57F870072C211 /* PlateErrorPopupView.xib */,
+				42839ACF1FC434A9008EB4BA /* PlatePhotoPopupView.swift */,
+				4286397C1FC57EC80072C211 /* PlatePhotoPopupView.xib */,
+				429F5BB51FC4320600165A14 /* SignupPopupView.swift */,
+				429F5BB31FC42E1400165A14 /* SignupPopupView.xib */,
+				42839ADE1FC476B1008EB4BA /* ParkingTableViewCell.swift */,
+				42839ADF1FC476B1008EB4BA /* ParkingTableViewCell.xib */,
+				42839AE41FC47B95008EB4BA /* ToolbarView.swift */,
+				42839AE21FC47923008EB4BA /* ToolbarView.xib */,
+				42A32B591FC4E586009C227D /* MenuTableViewCell.swift */,
+				42A32B5A1FC4E586009C227D /* MenuTableViewCell.xib */,
+				428639781FC57D7E0072C211 /* MapPinView.swift */,
+				428639761FC572790072C211 /* MapPinView.xib */,
+				428639841FC5AE8A0072C211 /* MyVehicleTableViewCell.swift */,
+				428639851FC5AE8A0072C211 /* MyVehicleTableViewCell.xib */,
+				4286398E1FC5CB1D0072C211 /* PaymentHistoryTableViewCell.swift */,
+				4286398F1FC5CB1D0072C211 /* PaymentHistoryTableViewCell.xib */,
+				427254951FC82F30003B107C /* CountriesView.swift */,
+				427254931FC82F00003B107C /* CountriesView.xib */,
+				421A29E51FC856E100CB6155 /* CountriesTableViewCell.swift */,
+				421A29E61FC856E100CB6155 /* CountriesTableViewCell.xib */,
+				42FC8DED2020A88A000CBC0E /* MapPinSmallView.xib */,
+				42FC8DEF2020A89B000CBC0E /* MapPinSmallView.swift */,
+				42683E92202C4CDF00D87F6A /* SearchLocationTableViewCell.swift */,
+				42683E93202C4CDF00D87F6A /* SearchLocationTableViewCell.xib */,
+				427D38F92035DFF3002872C2 /* PaymentTableViewCell.swift */,
+				427D38FA2035DFF3002872C2 /* PaymentTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		429FD2101FC204A6000BDBB1 = {
+			isa = PBXGroup;
+			children = (
+				429FD21B1FC204A6000BDBB1 /* soffa */,
+				429FD21A1FC204A6000BDBB1 /* Products */,
+				5D55C71369DEDFFB04877EDB /* Pods */,
+				C9FE75B9E695B806094B6363 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		429FD21A1FC204A6000BDBB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				429FD2191FC204A6000BDBB1 /* soffa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		429FD21B1FC204A6000BDBB1 /* soffa */ = {
+			isa = PBXGroup;
+			children = (
+				4286399A1FC5E51B0072C211 /* DatabaseObjects */,
+				429F5BB21FC42DED00165A14 /* Views */,
+				429FD2411FC22F87000BDBB1 /* Globals */,
+				429FD22E1FC22264000BDBB1 /* ViewControllers */,
+				429FD21C1FC204A6000BDBB1 /* AppDelegate.swift */,
+				429FD2201FC204A6000BDBB1 /* Main.storyboard */,
+				429FD2231FC204A6000BDBB1 /* Assets.xcassets */,
+				429FD2251FC204A6000BDBB1 /* LaunchScreen.storyboard */,
+				421A29E91FC859F900CB6155 /* countries.json */,
+				429FD2281FC204A6000BDBB1 /* Info.plist */,
+			);
+			path = soffa;
+			sourceTree = "<group>";
+		};
+		429FD22E1FC22264000BDBB1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				429FD21E1FC204A6000BDBB1 /* InitialViewController.swift */,
+				429FD22F1FC2227D000BDBB1 /* LoginViewController.swift */,
+				429FD2311FC22297000BDBB1 /* ForgotPasswordViewController.swift */,
+				429FD2331FC222B6000BDBB1 /* IntroPageViewController.swift */,
+				429FD2351FC222D5000BDBB1 /* Intro1ViewController.swift */,
+				429FD2371FC222E0000BDBB1 /* Intro2ViewController.swift */,
+				429FD2391FC222E9000BDBB1 /* Intro3ViewController.swift */,
+				429FD23B1FC222F5000BDBB1 /* Intro4ViewController.swift */,
+				429FD23D1FC22301000BDBB1 /* BaseViewController.swift */,
+				429FD23F1FC2292C000BDBB1 /* IntroViewController.swift */,
+				42EB9CD51FC32CDD00B9C055 /* SignupViewController.swift */,
+				42EB9CD91FC32EF900B9C055 /* PhoneVerificationViewController.swift */,
+				42839AD31FC43B35008EB4BA /* PlatePhotoViewController.swift */,
+				42839AD71FC45083008EB4BA /* CustomOverlayViewController.swift */,
+				42839AD81FC45083008EB4BA /* CustomOverlayViewController.xib */,
+				42A32B571FC4E3F9009C227D /* MenuViewController.swift */,
+				42A32B5D1FC4EAA3009C227D /* DashboardViewController.swift */,
+				42A32B601FC4EDAF009C227D /* RegistrationViewController.swift */,
+				42A32B621FC4EDF1009C227D /* PaymentViewController.swift */,
+				42A32B641FC4EE27009C227D /* ParkingsViewController.swift */,
+				42A32B671FC4F098009C227D /* SideMenuViewController.swift */,
+				428639801FC58EF60072C211 /* LoyaltyPointsViewController.swift */,
+				428639821FC5A5980072C211 /* ProfileViewController.swift */,
+				428639881FC5AFBB0072C211 /* MyVehiclesViewController.swift */,
+				4286398A1FC5B5A80072C211 /* EditProfileViewController.swift */,
+				4286398C1FC5CAD70072C211 /* ChangePasswordViewController.swift */,
+				428639921FC5CDDC0072C211 /* PaymentHistoryViewController.swift */,
+				428639941FC5D2A10072C211 /* SettingsViewController.swift */,
+				428639961FC5DB920072C211 /* ContactUsViewController.swift */,
+				42C1B0B4201C777200F71DF9 /* WebViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		429FD2411FC22F87000BDBB1 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				42EB9CD71FC32E6500B9C055 /* AppDefaults.swift */,
+				42EB9CDB1FC32F2300B9C055 /* Extensions.swift */,
+				42EB9CDD1FC32F4000B9C055 /* Services.swift */,
+				42EB9CDF1FC32FD000B9C055 /* Alamofire+Synchronous.swift */,
+				42839AD51FC43C3E008EB4BA /* CustomOverlayView.swift */,
+				428639981FC5E3590072C211 /* DatabaseObjects.swift */,
+				427254911FC81ED9003B107C /* SwiftOverlays.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		5D55C71369DEDFFB04877EDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				884E25E42554DEFCE6B16234 /* Pods-soffa.debug.xcconfig */,
+				4E1229703BC945C637D46286 /* Pods-soffa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9FE75B9E695B806094B6363 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42C2BB3B1FE7CA57001BCF23 /* Bolts.framework */,
+				42C2BB3C1FE7CA57001BCF23 /* FBSDKCoreKit.framework */,
+				42C2BB3A1FE7CA57001BCF23 /* FBSDKLoginKit.framework */,
+				42A664CB1FD85EDF00EED7E7 /* GoogleMaps.framework */,
+				42A664CC1FD85EE000EED7E7 /* GoogleMapsCore.framework */,
+				7878A1B342CA270A51D71544 /* Pods_soffa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		429FD2181FC204A6000BDBB1 /* soffa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429FD22B1FC204A6000BDBB1 /* Build configuration list for PBXNativeTarget "soffa" */;
+			buildPhases = (
+				86A2F9AFC372D144ED9DB806 /* [CP] Check Pods Manifest.lock */,
+				429FD2151FC204A6000BDBB1 /* Sources */,
+				429FD2161FC204A6000BDBB1 /* Frameworks */,
+				429FD2171FC204A6000BDBB1 /* Resources */,
+				4D1CDFC6327C6F36D094ED2D /* [CP] Embed Pods Frameworks */,
+				97C3F40F6F63EC1E375854FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = soffa;
+			productName = soffa;
+			productReference = 429FD2191FC204A6000BDBB1 /* soffa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		429FD2111FC204A6000BDBB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "we-devapp";
+				TargetAttributes = {
+					429FD2181FC204A6000BDBB1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 429FD2141FC204A6000BDBB1 /* Build configuration list for PBXProject "soffa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 429FD2101FC204A6000BDBB1;
+			productRefGroup = 429FD21A1FC204A6000BDBB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				429FD2181FC204A6000BDBB1 /* soffa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		429FD2171FC204A6000BDBB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421A29EA1FC85C9400CB6155 /* countries.json in Resources */,
+				42FC8DEE2020A88A000CBC0E /* MapPinSmallView.xib in Resources */,
+				42683E95202C4CDF00D87F6A /* SearchLocationTableViewCell.xib in Resources */,
+				428639771FC572790072C211 /* MapPinView.xib in Resources */,
+				4286397D1FC57EC80072C211 /* PlatePhotoPopupView.xib in Resources */,
+				4286397F1FC57F870072C211 /* PlateErrorPopupView.xib in Resources */,
+				427254941FC82F00003B107C /* CountriesView.xib in Resources */,
+				42839AE11FC476B1008EB4BA /* ParkingTableViewCell.xib in Resources */,
+				428639911FC5CB1D0072C211 /* PaymentHistoryTableViewCell.xib in Resources */,
+				429FD2271FC204A6000BDBB1 /* LaunchScreen.storyboard in Resources */,
+				429F5BB41FC42E1400165A14 /* SignupPopupView.xib in Resources */,
+				429FD2241FC204A6000BDBB1 /* Assets.xcassets in Resources */,
+				42839AE31FC47923008EB4BA /* ToolbarView.xib in Resources */,
+				427D38FC2035DFF3002872C2 /* PaymentTableViewCell.xib in Resources */,
+				428639871FC5AE8A0072C211 /* MyVehicleTableViewCell.xib in Resources */,
+				429FD2221FC204A6000BDBB1 /* Main.storyboard in Resources */,
+				42A32B5C1FC4E586009C227D /* MenuTableViewCell.xib in Resources */,
+				42839ADA1FC45083008EB4BA /* CustomOverlayViewController.xib in Resources */,
+				421A29E81FC856E100CB6155 /* CountriesTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D1CDFC6327C6F36D094ED2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-soffa/Pods-soffa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SidebarOverlay/SidebarOverlay.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SidebarOverlay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-soffa/Pods-soffa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86A2F9AFC372D144ED9DB806 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-soffa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C3F40F6F63EC1E375854FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-soffa/Pods-soffa-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-soffa/Pods-soffa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		429FD2151FC204A6000BDBB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429FD2321FC22297000BDBB1 /* ForgotPasswordViewController.swift in Sources */,
+				429FD2301FC2227D000BDBB1 /* LoginViewController.swift in Sources */,
+				428639891FC5AFBB0072C211 /* MyVehiclesViewController.swift in Sources */,
+				429FD2341FC222B6000BDBB1 /* IntroPageViewController.swift in Sources */,
+				429FD23A1FC222E9000BDBB1 /* Intro3ViewController.swift in Sources */,
+				42839AE01FC476B1008EB4BA /* ParkingTableViewCell.swift in Sources */,
+				4286398D1FC5CAD70072C211 /* ChangePasswordViewController.swift in Sources */,
+				429FD2381FC222E0000BDBB1 /* Intro2ViewController.swift in Sources */,
+				429FD23E1FC22301000BDBB1 /* BaseViewController.swift in Sources */,
+				427254961FC82F30003B107C /* CountriesView.swift in Sources */,
+				42A32B651FC4EE27009C227D /* ParkingsViewController.swift in Sources */,
+				42A32B631FC4EDF1009C227D /* PaymentViewController.swift in Sources */,
+				42A32B581FC4E3F9009C227D /* MenuViewController.swift in Sources */,
+				42EB9CD61FC32CDD00B9C055 /* SignupViewController.swift in Sources */,
+				421A29E71FC856E100CB6155 /* CountriesTableViewCell.swift in Sources */,
+				429FD2361FC222D5000BDBB1 /* Intro1ViewController.swift in Sources */,
+				42EB9CDA1FC32EF900B9C055 /* PhoneVerificationViewController.swift in Sources */,
+				429F5BB61FC4320600165A14 /* SignupPopupView.swift in Sources */,
+				428639931FC5CDDC0072C211 /* PaymentHistoryViewController.swift in Sources */,
+				42839AE51FC47B95008EB4BA /* ToolbarView.swift in Sources */,
+				429FD21F1FC204A6000BDBB1 /* InitialViewController.swift in Sources */,
+				42A32B681FC4F098009C227D /* SideMenuViewController.swift in Sources */,
+				42A32B5B1FC4E586009C227D /* MenuTableViewCell.swift in Sources */,
+				42C1B0B5201C777200F71DF9 /* WebViewController.swift in Sources */,
+				428639791FC57D7E0072C211 /* MapPinView.swift in Sources */,
+				42FC8DF02020A89B000CBC0E /* MapPinSmallView.swift in Sources */,
+				42A32B5E1FC4EAA3009C227D /* DashboardViewController.swift in Sources */,
+				4286399D1FC5E6910072C211 /* User.swift in Sources */,
+				428639951FC5D2A10072C211 /* SettingsViewController.swift in Sources */,
+				428639991FC5E3590072C211 /* DatabaseObjects.swift in Sources */,
+				427D38FB2035DFF3002872C2 /* PaymentTableViewCell.swift in Sources */,
+				42839AD11FC434AA008EB4BA /* PlateErrorPopupView.swift in Sources */,
+				42EB9CE01FC32FD000B9C055 /* Alamofire+Synchronous.swift in Sources */,
+				42EB9CDC1FC32F2300B9C055 /* Extensions.swift in Sources */,
+				427254921FC81ED9003B107C /* SwiftOverlays.swift in Sources */,
+				429FD2401FC2292C000BDBB1 /* IntroViewController.swift in Sources */,
+				429FD21D1FC204A6000BDBB1 /* AppDelegate.swift in Sources */,
+				42E974981FE10F88008D95A0 /* ExcludedParking.swift in Sources */,
+				428639A31FC5EB2B0072C211 /* PaymentHistory.swift in Sources */,
+				4286398B1FC5B5A80072C211 /* EditProfileViewController.swift in Sources */,
+				42EB9CDE1FC32F4000B9C055 /* Services.swift in Sources */,
+				42683E94202C4CDF00D87F6A /* SearchLocationTableViewCell.swift in Sources */,
+				428639901FC5CB1D0072C211 /* PaymentHistoryTableViewCell.swift in Sources */,
+				428639A11FC5E90F0072C211 /* Parking.swift in Sources */,
+				428639811FC58EF60072C211 /* LoyaltyPointsViewController.swift in Sources */,
+				42839AD41FC43B35008EB4BA /* PlatePhotoViewController.swift in Sources */,
+				428639861FC5AE8A0072C211 /* MyVehicleTableViewCell.swift in Sources */,
+				42839AD61FC43C3E008EB4BA /* CustomOverlayView.swift in Sources */,
+				42EB9CD81FC32E6500B9C055 /* AppDefaults.swift in Sources */,
+				421A29E41FC855E900CB6155 /* Country.swift in Sources */,
+				429FD23C1FC222F5000BDBB1 /* Intro4ViewController.swift in Sources */,
+				42839AD91FC45083008EB4BA /* CustomOverlayViewController.swift in Sources */,
+				428639831FC5A5980072C211 /* ProfileViewController.swift in Sources */,
+				42839AD21FC434AA008EB4BA /* PlatePhotoPopupView.swift in Sources */,
+				42A32B611FC4EDAF009C227D /* RegistrationViewController.swift in Sources */,
+				425343E1201BD0D300881041 /* PaymentMethod.swift in Sources */,
+				4286399F1FC5E88A0072C211 /* Vehicle.swift in Sources */,
+				428639971FC5DB920072C211 /* ContactUsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		429FD2201FC204A6000BDBB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				429FD2211FC204A6000BDBB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		429FD2251FC204A6000BDBB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				429FD2261FC204A6000BDBB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		429FD2291FC204A6000BDBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		429FD22A1FC204A6000BDBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		429FD22C1FC204A6000BDBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884E25E42554DEFCE6B16234 /* Pods-soffa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = soffa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.soffa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		429FD22D1FC204A6000BDBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E1229703BC945C637D46286 /* Pods-soffa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = soffa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.soffa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		429FD2141FC204A6000BDBB1 /* Build configuration list for PBXProject "soffa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429FD2291FC204A6000BDBB1 /* Debug */,
+				429FD22A1FC204A6000BDBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		429FD22B1FC204A6000BDBB1 /* Build configuration list for PBXNativeTarget "soffa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429FD22C1FC204A6000BDBB1 /* Debug */,
+				429FD22D1FC204A6000BDBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 429FD2111FC204A6000BDBB1 /* Project object */;
+}

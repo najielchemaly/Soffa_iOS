@@ -1,0 +1,1999 @@
+{
+    "countries": [{
+                  
+                  "ID": 1,
+                  
+                  "CountryName": "Afghanistan",
+                  
+                  "CallingCode": "93"
+                  
+                  }, {
+                  
+                  "ID": 2,
+                  
+                  "CountryName": "Aland Islands",
+                  
+                  "CallingCode": "358"
+                  
+                  }, {
+                  
+                  "ID": 3,
+                  
+                  "CountryName": "Albania",
+                  
+                  "CallingCode": "355"
+                  
+                  }, {
+                  
+                  "ID": 4,
+                  
+                  "CountryName": "Algeria",
+                  
+                  "CallingCode": "213"
+                  
+                  }, {
+                  
+                  "ID": 5,
+                  
+                  "CountryName": "American Samoa",
+                  
+                  "CallingCode": "1+684"
+                  
+                  }, {
+                  
+                  "ID": 6,
+                  
+                  "CountryName": "Andorra",
+                  
+                  "CallingCode": "376"
+                  
+                  }, {
+                  
+                  "ID": 7,
+                  
+                  "CountryName": "Angola",
+                  
+                  "CallingCode": "244"
+                  
+                  }, {
+                  
+                  "ID": 8,
+                  
+                  "CountryName": "Anguilla",
+                  
+                  "CallingCode": "1+264"
+                  
+                  }, {
+                  
+                  "ID": 9,
+                  
+                  "CountryName": "Antarctica",
+                  
+                  "CallingCode": "672"
+                  
+                  }, {
+                  
+                  "ID": 10,
+                  
+                  "CountryName": "Antigua and Barbuda",
+                  
+                  "CallingCode": "1+268"
+                  
+                  }, {
+                  
+                  "ID": 11,
+                  
+                  "CountryName": "Argentina",
+                  
+                  "CallingCode": "54"
+                  
+                  }, {
+                  
+                  "ID": 12,
+                  
+                  "CountryName": "Armenia",
+                  
+                  "CallingCode": "374"
+                  
+                  }, {
+                  
+                  "ID": 13,
+                  
+                  "CountryName": "Aruba",
+                  
+                  "CallingCode": "297"
+                  
+                  }, {
+                  
+                  "ID": 14,
+                  
+                  "CountryName": "Australia",
+                  
+                  "CallingCode": "61"
+                  
+                  }, {
+                  
+                  "ID": 15,
+                  
+                  "CountryName": "Austria",
+                  
+                  "CallingCode": "43"
+                  
+                  }, {
+                  
+                  "ID": 16,
+                  
+                  "CountryName": "Azerbaijan",
+                  
+                  "CallingCode": "994"
+                  
+                  }, {
+                  
+                  "ID": 17,
+                  
+                  "CountryName": "Bahamas",
+                  
+                  "CallingCode": "1+242"
+                  
+                  }, {
+                  
+                  "ID": 18,
+                  
+                  "CountryName": "Bahrain",
+                  
+                  "CallingCode": "973"
+                  
+                  }, {
+                  
+                  "ID": 19,
+                  
+                  "CountryName": "Bangladesh",
+                  
+                  "CallingCode": "880"
+                  
+                  }, {
+                  
+                  "ID": 20,
+                  
+                  "CountryName": "Barbados",
+                  
+                  "CallingCode": "1+246"
+                  
+                  }, {
+                  
+                  "ID": 21,
+                  
+                  "CountryName": "Belarus",
+                  
+                  "CallingCode": "375"
+                  
+                  }, {
+                  
+                  "ID": 22,
+                  
+                  "CountryName": "Belgium",
+                  
+                  "CallingCode": "32"
+                  
+                  }, {
+                  
+                  "ID": 23,
+                  
+                  "CountryName": "Belize",
+                  
+                  "CallingCode": "501"
+                  
+                  }, {
+                  
+                  "ID": 24,
+                  
+                  "CountryName": "Benin",
+                  
+                  "CallingCode": "229"
+                  
+                  }, {
+                  
+                  "ID": 25,
+                  
+                  "CountryName": "Bermuda",
+                  
+                  "CallingCode": "1+441"
+                  
+                  }, {
+                  
+                  "ID": 26,
+                  
+                  "CountryName": "Bhutan",
+                  
+                  "CallingCode": "975"
+                  
+                  }, {
+                  
+                  "ID": 27,
+                  
+                  "CountryName": "Bolivia",
+                  
+                  "CallingCode": "591"
+                  
+                  }, {
+                  
+                  "ID": 28,
+                  
+                  "CountryName": "Bonaire, Sint Eustatius and Saba",
+                  
+                  "CallingCode": "599"
+                  
+                  }, {
+                  
+                  "ID": 29,
+                  
+                  "CountryName": "Bosnia and Herzegovina",
+                  
+                  "CallingCode": "387"
+                  
+                  }, {
+                  
+                  "ID": 30,
+                  
+                  "CountryName": "Botswana",
+                  
+                  "CallingCode": "267"
+                  
+                  }, {
+                  
+                  "ID": 31,
+                  
+                  "CountryName": "Bouvet Island",
+                  
+                  "CallingCode": "NONE"
+                  
+                  }, {
+                  
+                  "ID": 32,
+                  
+                  "CountryName": "Brazil",
+                  
+                  "CallingCode": "55"
+                  
+                  }, {
+                  
+                  "ID": 33,
+                  
+                  "CountryName": "British Indian Ocean Territory",
+                  
+                  "CallingCode": "246"
+                  
+                  }, {
+                  
+                  "ID": 34,
+                  
+                  "CountryName": "Brunei",
+                  
+                  "CallingCode": "673"
+                  
+                  }, {
+                  
+                  "ID": 35,
+                  
+                  "CountryName": "Bulgaria",
+                  
+                  "CallingCode": "359"
+                  
+                  }, {
+                  
+                  "ID": 36,
+                  
+                  "CountryName": "Burkina Faso",
+                  
+                  "CallingCode": "226"
+                  
+                  }, {
+                  
+                  "ID": 37,
+                  
+                  "CountryName": "Burundi",
+                  
+                  "CallingCode": "257"
+                  
+                  }, {
+                  
+                  "ID": 38,
+                  
+                  "CountryName": "Cambodia",
+                  
+                  "CallingCode": "855"
+                  
+                  }, {
+                  
+                  "ID": 39,
+                  
+                  "CountryName": "Cameroon",
+                  
+                  "CallingCode": "237"
+                  
+                  }, {
+                  
+                  "ID": 40,
+                  
+                  "CountryName": "Canada",
+                  
+                  "CallingCode": "1"
+                  
+                  }, {
+                  
+                  "ID": 41,
+                  
+                  "CountryName": "Cape Verde",
+                  
+                  "CallingCode": "238"
+                  
+                  }, {
+                  
+                  "ID": 42,
+                  
+                  "CountryName": "Cayman Islands",
+                  
+                  "CallingCode": "1+345"
+                  
+                  }, {
+                  
+                  "ID": 43,
+                  
+                  "CountryName": "Central African Republic",
+                  
+                  "CallingCode": "236"
+                  
+                  }, {
+                  
+                  "ID": 44,
+                  
+                  "CountryName": "Chad",
+                  
+                  "CallingCode": "235"
+                  
+                  }, {
+                  
+                  "ID": 45,
+                  
+                  "CountryName": "Chile",
+                  
+                  "CallingCode": "56"
+                  
+                  }, {
+                  
+                  "ID": 46,
+                  
+                  "CountryName": "China",
+                  
+                  "CallingCode": "86"
+                  
+                  }, {
+                  
+                  "ID": 47,
+                  
+                  "CountryName": "Christmas Island",
+                  
+                  "CallingCode": "61"
+                  
+                  }, {
+                  
+                  "ID": 48,
+                  
+                  "CountryName": "Cocos (Keeling) Islands",
+                  
+                  "CallingCode": "61"
+                  
+                  }, {
+                  
+                  "ID": 49,
+                  
+                  "CountryName": "Colombia",
+                  
+                  "CallingCode": "57"
+                  
+                  }, {
+                  
+                  "ID": 50,
+                  
+                  "CountryName": "Comoros",
+                  
+                  "CallingCode": "269"
+                  
+                  }, {
+                  
+                  "ID": 51,
+                  
+                  "CountryName": "Congo",
+                  
+                  "CallingCode": "242"
+                  
+                  }, {
+                  
+                  "ID": 52,
+                  
+                  "CountryName": "Cook Islands",
+                  
+                  "CallingCode": "682"
+                  
+                  }, {
+                  
+                  "ID": 53,
+                  
+                  "CountryName": "Costa Rica",
+                  
+                  "CallingCode": "506"
+                  
+                  }, {
+                  
+                  "ID": 54,
+                  
+                  "CountryName": "Cote d'ivoire (Ivory Coast)",
+                  
+                  "CallingCode": "225"
+                  
+                  }, {
+                  
+                  "ID": 55,
+                  
+                  "CountryName": "Croatia",
+                  
+                  "CallingCode": "385"
+                  
+                  }, {
+                  
+                  "ID": 56,
+                  
+                  "CountryName": "Cuba",
+                  
+                  "CallingCode": "53"
+                  
+                  }, {
+                  
+                  "ID": 57,
+                  
+                  "CountryName": "Curacao",
+                  
+                  "CallingCode": "599"
+                  
+                  }, {
+                  
+                  "ID": 58,
+                  
+                  "CountryName": "Cyprus",
+                  
+                  "CallingCode": "357"
+                  
+                  }, {
+                  
+                  "ID": 59,
+                  
+                  "CountryName": "Czech Republic",
+                  
+                  "CallingCode": "420"
+                  
+                  }, {
+                  
+                  "ID": 60,
+                  
+                  "CountryName": "Democratic Republic of the Congo",
+                  
+                  "CallingCode": "243"
+                  
+                  }, {
+                  
+                  "ID": 61,
+                  
+                  "CountryName": "Denmark",
+                  
+                  "CallingCode": "45"
+                  
+                  }, {
+                  
+                  "ID": 62,
+                  
+                  "CountryName": "Djibouti",
+                  
+                  "CallingCode": "253"
+                  
+                  }, {
+                  
+                  "ID": 63,
+                  
+                  "CountryName": "Dominica",
+                  
+                  "CallingCode": "1+767"
+                  
+                  }, {
+                  
+                  "ID": 64,
+                  
+                  "CountryName": "Dominican Republic",
+                  
+                  "CallingCode": "1+809, 8"
+                  
+                  }, {
+                  
+                  "ID": 65,
+                  
+                  "CountryName": "Ecuador",
+                  
+                  "CallingCode": "593"
+                  
+                  }, {
+                  
+                  "ID": 66,
+                  
+                  "CountryName": "Egypt",
+                  
+                  "CallingCode": "20"
+                  
+                  }, {
+                  
+                  "ID": 67,
+                  
+                  "CountryName": "El Salvador",
+                  
+                  "CallingCode": "503"
+                  
+                  }, {
+                  
+                  "ID": 68,
+                  
+                  "CountryName": "Equatorial Guinea",
+                  
+                  "CallingCode": "240"
+                  
+                  }, {
+                  
+                  "ID": 69,
+                  
+                  "CountryName": "Eritrea",
+                  
+                  "CallingCode": "291"
+                  
+                  }, {
+                  
+                  "ID": 70,
+                  
+                  "CountryName": "Estonia",
+                  
+                  "CallingCode": "372"
+                  
+                  }, {
+                  
+                  "ID": 71,
+                  
+                  "CountryName": "Ethiopia",
+                  
+                  "CallingCode": "251"
+                  
+                  }, {
+                  
+                  "ID": 72,
+                  
+                  "CountryName": "Falkland Islands (Malvinas)",
+                  
+                  "CallingCode": "500"
+                  
+                  }, {
+                  
+                  "ID": 73,
+                  
+                  "CountryName": "Faroe Islands",
+                  
+                  "CallingCode": "298"
+                  
+                  }, {
+                  
+                  "ID": 74,
+                  
+                  "CountryName": "Fiji",
+                  
+                  "CallingCode": "679"
+                  
+                  }, {
+                  
+                  "ID": 75,
+                  
+                  "CountryName": "Finland",
+                  
+                  "CallingCode": "358"
+                  
+                  }, {
+                  
+                  "ID": 76,
+                  
+                  "CountryName": "France",
+                  
+                  "CallingCode": "33"
+                  
+                  }, {
+                  
+                  "ID": 77,
+                  
+                  "CountryName": "French Guiana",
+                  
+                  "CallingCode": "594"
+                  
+                  }, {
+                  
+                  "ID": 78,
+                  
+                  "CountryName": "French Polynesia",
+                  
+                  "CallingCode": "689"
+                  
+                  },
+                  
+                  {
+                  
+                  "ID": 80,
+                  
+                  "CountryName": "Gabon",
+                  
+                  "CallingCode": "241"
+                  
+                  }, {
+                  
+                  "ID": 81,
+                  
+                  "CountryName": "Gambia",
+                  
+                  "CallingCode": "220"
+                  
+                  }, {
+                  
+                  "ID": 82,
+                  
+                  "CountryName": "Georgia",
+                  
+                  "CallingCode": "995"
+                  
+                  }, {
+                  
+                  "ID": 83,
+                  
+                  "CountryName": "Germany",
+                  
+                  "CallingCode": "49"
+                  
+                  }, {
+                  
+                  "ID": 84,
+                  
+                  "CountryName": "Ghana",
+                  
+                  "CallingCode": "233"
+                  
+                  }, {
+                  
+                  "ID": 85,
+                  
+                  "CountryName": "Gibraltar",
+                  
+                  "CallingCode": "350"
+                  
+                  }, {
+                  
+                  "ID": 86,
+                  
+                  "CountryName": "Greece",
+                  
+                  "CallingCode": "30"
+                  
+                  }, {
+                  
+                  "ID": 87,
+                  
+                  "CountryName": "Greenland",
+                  
+                  "CallingCode": "299"
+                  
+                  }, {
+                  
+                  "ID": 88,
+                  
+                  "CountryName": "Grenada",
+                  
+                  "CallingCode": "1+473"
+                  
+                  }, {
+                  
+                  "ID": 89,
+                  
+                  "CountryName": "Guadaloupe",
+                  
+                  "CallingCode": "590"
+                  
+                  }, {
+                  
+                  "ID": 90,
+                  
+                  "CountryName": "Guam",
+                  
+                  "CallingCode": "1+671"
+                  
+                  }, {
+                  
+                  "ID": 91,
+                  
+                  "CountryName": "Guatemala",
+                  
+                  "CallingCode": "502"
+                  
+                  }, {
+                  
+                  "ID": 92,
+                  
+                  "CountryName": "Guernsey",
+                  
+                  "CallingCode": "44"
+                  
+                  }, {
+                  
+                  "ID": 93,
+                  
+                  "CountryName": "Guinea",
+                  
+                  "CallingCode": "224"
+                  
+                  }, {
+                  
+                  "ID": 94,
+                  
+                  "CountryName": "Guinea-Bissau",
+                  
+                  "CallingCode": "245"
+                  
+                  }, {
+                  
+                  "ID": 95,
+                  
+                  "CountryName": "Guyana",
+                  
+                  "CallingCode": "592"
+                  
+                  }, {
+                  
+                  "ID": 96,
+                  
+                  "CountryName": "Haiti",
+                  
+                  "CallingCode": "509"
+                  
+                  }, {
+                  
+                  "ID": 97,
+                  
+                  "CountryName": "Heard Island and McDonald Islands",
+                  
+                  "CallingCode": "NONE"
+                  
+                  }, {
+                  
+                  "ID": 98,
+                  
+                  "CountryName": "Honduras",
+                  
+                  "CallingCode": "504"
+                  
+                  }, {
+                  
+                  "ID": 99,
+                  
+                  "CountryName": "Hong Kong",
+                  
+                  "CallingCode": "852"
+                  
+                  }, {
+                  
+                  "ID": 100,
+                  
+                  "CountryName": "Hungary",
+                  
+                  "CallingCode": "36"
+                  
+                  }, {
+                  
+                  "ID": 101,
+                  
+                  "CountryName": "Iceland",
+                  
+                  "CallingCode": "354"
+                  
+                  }, {
+                  
+                  "ID": 102,
+                  
+                  "CountryName": "India",
+                  
+                  "CallingCode": "91"
+                  
+                  }, {
+                  
+                  "ID": 103,
+                  
+                  "CountryName": "Indonesia",
+                  
+                  "CallingCode": "62"
+                  
+                  }, {
+                  
+                  "ID": 104,
+                  
+                  "CountryName": "Iran",
+                  
+                  "CallingCode": "98"
+                  
+                  }, {
+                  
+                  "ID": 105,
+                  
+                  "CountryName": "Iraq",
+                  
+                  "CallingCode": "964"
+                  
+                  }, {
+                  
+                  "ID": 106,
+                  
+                  "CountryName": "Ireland",
+                  
+                  "CallingCode": "353"
+                  
+                  }, {
+                  
+                  "ID": 107,
+                  
+                  "CountryName": "Isle of Man",
+                  
+                  "CallingCode": "44"
+                  
+                  }, {
+                  
+                  "ID": 108,
+                  
+                  "CountryName": "Israel",
+                  
+                  "CallingCode": "972"
+                  
+                  }, {
+                  
+                  "ID": 109,
+                  
+                  "CountryName": "Italy",
+                  
+                  "CallingCode": "39"
+                  
+                  }, {
+                  
+                  "ID": 110,
+                  
+                  "CountryName": "Jamaica",
+                  
+                  "CallingCode": "1+876"
+                  
+                  }, {
+                  
+                  "ID": 111,
+                  
+                  "CountryName": "Japan",
+                  
+                  "CallingCode": "81"
+                  
+                  }, {
+                  
+                  "ID": 112,
+                  
+                  "CountryName": "Jersey",
+                  
+                  "CallingCode": "44"
+                  
+                  }, {
+                  
+                  "ID": 113,
+                  
+                  "CountryName": "Jordan",
+                  
+                  "CallingCode": "962"
+                  
+                  }, {
+                  
+                  "ID": 114,
+                  
+                  "CountryName": "Kazakhstan",
+                  
+                  "CallingCode": "7"
+                  
+                  }, {
+                  
+                  "ID": 115,
+                  
+                  "CountryName": "Kenya",
+                  
+                  "CallingCode": "254"
+                  
+                  }, {
+                  
+                  "ID": 116,
+                  
+                  "CountryName": "Kiribati",
+                  
+                  "CallingCode": "686"
+                  
+                  }, {
+                  
+                  "ID": 117,
+                  
+                  "CountryName": "Kosovo",
+                  
+                  "CallingCode": "381"
+                  
+                  }, {
+                  
+                  "ID": 118,
+                  
+                  "CountryName": "Kuwait",
+                  
+                  "CallingCode": "965"
+                  
+                  }, {
+                  
+                  "ID": 119,
+                  
+                  "CountryName": "Kyrgyzstan",
+                  
+                  "CallingCode": "996"
+                  
+                  }, {
+                  
+                  "ID": 120,
+                  
+                  "CountryName": "Laos",
+                  
+                  "CallingCode": "856"
+                  
+                  }, {
+                  
+                  "ID": 121,
+                  
+                  "CountryName": "Latvia",
+                  
+                  "CallingCode": "371"
+                  
+                  }, {
+                  
+                  "ID": 122,
+                  
+                  "CountryName": "Lebanon",
+                  
+                  "CallingCode": "961"
+                  
+                  }, {
+                  
+                  "ID": 123,
+                  
+                  "CountryName": "Lesotho",
+                  
+                  "CallingCode": "266"
+                  
+                  }, {
+                  
+                  "ID": 124,
+                  
+                  "CountryName": "Liberia",
+                  
+                  "CallingCode": "231"
+                  
+                  }, {
+                  
+                  "ID": 125,
+                  
+                  "CountryName": "Libya",
+                  
+                  "CallingCode": "218"
+                  
+                  }, {
+                  
+                  "ID": 126,
+                  
+                  "CountryName": "Liechtenstein",
+                  
+                  "CallingCode": "423"
+                  
+                  }, {
+                  
+                  "ID": 127,
+                  
+                  "CountryName": "Lithuania",
+                  
+                  "CallingCode": "370"
+                  
+                  }, {
+                  
+                  "ID": 128,
+                  
+                  "CountryName": "Luxembourg",
+                  
+                  "CallingCode": "352"
+                  
+                  }, {
+                  
+                  "ID": 129,
+                  
+                  "CountryName": "Macao",
+                  
+                  "CallingCode": "853"
+                  
+                  }, {
+                  
+                  "ID": 130,
+                  
+                  "CountryName": "Macedonia",
+                  
+                  "CallingCode": "389"
+                  
+                  }, {
+                  
+                  "ID": 131,
+                  
+                  "CountryName": "Madagascar",
+                  
+                  "CallingCode": "261"
+                  
+                  }, {
+                  
+                  "ID": 132,
+                  
+                  "CountryName": "Malawi",
+                  
+                  "CallingCode": "265"
+                  
+                  }, {
+                  
+                  "ID": 133,
+                  
+                  "CountryName": "Malaysia",
+                  
+                  "CallingCode": "60"
+                  
+                  }, {
+                  
+                  "ID": 134,
+                  
+                  "CountryName": "Maldives",
+                  
+                  "CallingCode": "960"
+                  
+                  }, {
+                  
+                  "ID": 135,
+                  
+                  "CountryName": "Mali",
+                  
+                  "CallingCode": "223"
+                  
+                  }, {
+                  
+                  "ID": 136,
+                  
+                  "CountryName": "Malta",
+                  
+                  "CallingCode": "356"
+                  
+                  }, {
+                  
+                  "ID": 137,
+                  
+                  "CountryName": "Marshall Islands",
+                  
+                  "CallingCode": "692"
+                  
+                  }, {
+                  
+                  "ID": 138,
+                  
+                  "CountryName": "Martinique",
+                  
+                  "CallingCode": "596"
+                  
+                  }, {
+                  
+                  "ID": 139,
+                  
+                  "CountryName": "Mauritania",
+                  
+                  "CallingCode": "222"
+                  
+                  }, {
+                  
+                  "ID": 140,
+                  
+                  "CountryName": "Mauritius",
+                  
+                  "CallingCode": "230"
+                  
+                  }, {
+                  
+                  "ID": 141,
+                  
+                  "CountryName": "Mayotte",
+                  
+                  "CallingCode": "262"
+                  
+                  }, {
+                  
+                  "ID": 142,
+                  
+                  "CountryName": "Mexico",
+                  
+                  "CallingCode": "52"
+                  
+                  }, {
+                  
+                  "ID": 143,
+                  
+                  "CountryName": "Micronesia",
+                  
+                  "CallingCode": "691"
+                  
+                  }, {
+                  
+                  "ID": 144,
+                  
+                  "CountryName": "Moldava",
+                  
+                  "CallingCode": "373"
+                  
+                  }, {
+                  
+                  "ID": 145,
+                  
+                  "CountryName": "Monaco",
+                  
+                  "CallingCode": "377"
+                  
+                  }, {
+                  
+                  "ID": 146,
+                  
+                  "CountryName": "Mongolia",
+                  
+                  "CallingCode": "976"
+                  
+                  }, {
+                  
+                  "ID": 147,
+                  
+                  "CountryName": "Montenegro",
+                  
+                  "CallingCode": "382"
+                  
+                  }, {
+                  
+                  "ID": 148,
+                  
+                  "CountryName": "Montserrat",
+                  
+                  "CallingCode": "1+664"
+                  
+                  }, {
+                  
+                  "ID": 149,
+                  
+                  "CountryName": "Morocco",
+                  
+                  "CallingCode": "212"
+                  
+                  }, {
+                  
+                  "ID": 150,
+                  
+                  "CountryName": "Mozambique",
+                  
+                  "CallingCode": "258"
+                  
+                  }, {
+                  
+                  "ID": 151,
+                  
+                  "CountryName": "Myanmar (Burma)",
+                  
+                  "CallingCode": "95"
+                  
+                  }, {
+                  
+                  "ID": 152,
+                  
+                  "CountryName": "Namibia",
+                  
+                  "CallingCode": "264"
+                  
+                  }, {
+                  
+                  "ID": 153,
+                  
+                  "CountryName": "Nauru",
+                  
+                  "CallingCode": "674"
+                  
+                  }, {
+                  
+                  "ID": 154,
+                  
+                  "CountryName": "Nepal",
+                  
+                  "CallingCode": "977"
+                  
+                  }, {
+                  
+                  "ID": 155,
+                  
+                  "CountryName": "Netherlands",
+                  
+                  "CallingCode": "31"
+                  
+                  }, {
+                  
+                  "ID": 156,
+                  
+                  "CountryName": "New Caledonia",
+                  
+                  "CallingCode": "687"
+                  
+                  }, {
+                  
+                  "ID": 157,
+                  
+                  "CountryName": "New Zealand",
+                  
+                  "CallingCode": "64"
+                  
+                  }, {
+                  
+                  "ID": 158,
+                  
+                  "CountryName": "Nicaragua",
+                  
+                  "CallingCode": "505"
+                  
+                  }, {
+                  
+                  "ID": 159,
+                  
+                  "CountryName": "Niger",
+                  
+                  "CallingCode": "227"
+                  
+                  }, {
+                  
+                  "ID": 160,
+                  
+                  "CountryName": "Nigeria",
+                  
+                  "CallingCode": "234"
+                  
+                  }, {
+                  
+                  "ID": 161,
+                  
+                  "CountryName": "Niue",
+                  
+                  "CallingCode": "683"
+                  
+                  }, {
+                  
+                  "ID": 162,
+                  
+                  "CountryName": "Norfolk Island",
+                  
+                  "CallingCode": "672"
+                  
+                  }, {
+                  
+                  "ID": 163,
+                  
+                  "CountryName": "North Korea",
+                  
+                  "CallingCode": "850"
+                  
+                  }, {
+                  
+                  "ID": 164,
+                  
+                  "CountryName": "Northern Mariana Islands",
+                  
+                  "CallingCode": "1+670"
+                  
+                  }, {
+                  
+                  "ID": 165,
+                  
+                  "CountryName": "Norway",
+                  
+                  "CallingCode": "47"
+                  
+                  }, {
+                  
+                  "ID": 166,
+                  
+                  "CountryName": "Oman",
+                  
+                  "CallingCode": "968"
+                  
+                  }, {
+                  
+                  "ID": 167,
+                  
+                  "CountryName": "Pakistan",
+                  
+                  "CallingCode": "92"
+                  
+                  }, {
+                  
+                  "ID": 168,
+                  
+                  "CountryName": "Palau",
+                  
+                  "CallingCode": "680"
+                  
+                  }, {
+                  
+                  "ID": 169,
+                  
+                  "CountryName": "Palestine",
+                  
+                  "CallingCode": "970"
+                  
+                  }, {
+                  
+                  "ID": 170,
+                  
+                  "CountryName": "Panama",
+                  
+                  "CallingCode": "507"
+                  
+                  }, {
+                  
+                  "ID": 171,
+                  
+                  "CountryName": "Papua New Guinea",
+                  
+                  "CallingCode": "675"
+                  
+                  }, {
+                  
+                  "ID": 172,
+                  
+                  "CountryName": "Paraguay",
+                  
+                  "CallingCode": "595"
+                  
+                  }, {
+                  
+                  "ID": 173,
+                  
+                  "CountryName": "Peru",
+                  
+                  "CallingCode": "51"
+                  
+                  }, {
+                  
+                  "ID": 174,
+                  
+                  "CountryName": "Phillipines",
+                  
+                  "CallingCode": "63"
+                  
+                  }, {
+                  
+                  "ID": 175,
+                  
+                  "CountryName": "Pitcairn",
+                  
+                  "CallingCode": "NONE"
+                  
+                  }, {
+                  
+                  "ID": 176,
+                  
+                  "CountryName": "Poland",
+                  
+                  "CallingCode": "48"
+                  
+                  }, {
+                  
+                  "ID": 177,
+                  
+                  "CountryName": "Portugal",
+                  
+                  "CallingCode": "351"
+                  
+                  }, {
+                  
+                  "ID": 178,
+                  
+                  "CountryName": "Puerto Rico",
+                  
+                  "CallingCode": "1+939"
+                  
+                  }, {
+                  
+                  "ID": 179,
+                  
+                  "CountryName": "Qatar",
+                  
+                  "CallingCode": "974"
+                  
+                  }, {
+                  
+                  "ID": 180,
+                  
+                  "CountryName": "Reunion",
+                  
+                  "CallingCode": "262"
+                  
+                  }, {
+                  
+                  "ID": 181,
+                  
+                  "CountryName": "Romania",
+                  
+                  "CallingCode": "40"
+                  
+                  }, {
+                  
+                  "ID": 182,
+                  
+                  "CountryName": "Russia",
+                  
+                  "CallingCode": "7"
+                  
+                  }, {
+                  
+                  "ID": 183,
+                  
+                  "CountryName": "Rwanda",
+                  
+                  "CallingCode": "250"
+                  
+                  }, {
+                  
+                  "ID": 184,
+                  
+                  "CountryName": "Saint Barthelemy",
+                  
+                  "CallingCode": "590"
+                  
+                  }, {
+                  
+                  "ID": 185,
+                  
+                  "CountryName": "Saint Helena",
+                  
+                  "CallingCode": "290"
+                  
+                  }, {
+                  
+                  "ID": 186,
+                  
+                  "CountryName": "Saint Kitts and Nevis",
+                  
+                  "CallingCode": "1+869"
+                  
+                  }, {
+                  
+                  "ID": 187,
+                  
+                  "CountryName": "Saint Lucia",
+                  
+                  "CallingCode": "1+758"
+                  
+                  }, {
+                  
+                  "ID": 188,
+                  
+                  "CountryName": "Saint Martin",
+                  
+                  "CallingCode": "590"
+                  
+                  }, {
+                  
+                  "ID": 189,
+                  
+                  "CountryName": "Saint Pierre and Miquelon",
+                  
+                  "CallingCode": "508"
+                  
+                  }, {
+                  
+                  "ID": 190,
+                  
+                  "CountryName": "Saint Vincent and the Grenadines",
+                  
+                  "CallingCode": "1+784"
+                  
+                  }, {
+                  
+                  "ID": 191,
+                  
+                  "CountryName": "Samoa",
+                  
+                  "CallingCode": "685"
+                  
+                  }, {
+                  
+                  "ID": 192,
+                  
+                  "CountryName": "San Marino",
+                  
+                  "CallingCode": "378"
+                  
+                  }, {
+                  
+                  "ID": 193,
+                  
+                  "CountryName": "Sao Tome and Principe",
+                  
+                  "CallingCode": "239"
+                  
+                  }, {
+                  
+                  "ID": 194,
+                  
+                  "CountryName": "Saudi Arabia",
+                  
+                  "CallingCode": "966"
+                  
+                  }, {
+                  
+                  "ID": 195,
+                  
+                  "CountryName": "Senegal",
+                  
+                  "CallingCode": "221"
+                  
+                  }, {
+                  
+                  "ID": 196,
+                  
+                  "CountryName": "Serbia",
+                  
+                  "CallingCode": "381"
+                  
+                  }, {
+                  
+                  "ID": 197,
+                  
+                  "CountryName": "Seychelles",
+                  
+                  "CallingCode": "248"
+                  
+                  }, {
+                  
+                  "ID": 198,
+                  
+                  "CountryName": "Sierra Leone",
+                  
+                  "CallingCode": "232"
+                  
+                  }, {
+                  
+                  "ID": 199,
+                  
+                  "CountryName": "Singapore",
+                  
+                  "CallingCode": "65"
+                  
+                  }, {
+                  
+                  "ID": 200,
+                  
+                  "CountryName": "Sint Maarten",
+                  
+                  "CallingCode": "1+721"
+                  
+                  }, {
+                  
+                  "ID": 201,
+                  
+                  "CountryName": "Slovakia",
+                  
+                  "CallingCode": "421"
+                  
+                  }, {
+                  
+                  "ID": 202,
+                  
+                  "CountryName": "Slovenia",
+                  
+                  "CallingCode": "386"
+                  
+                  }, {
+                  
+                  "ID": 203,
+                  
+                  "CountryName": "Solomon Islands",
+                  
+                  "CallingCode": "677"
+                  
+                  }, {
+                  
+                  "ID": 204,
+                  
+                  "CountryName": "Somalia",
+                  
+                  "CallingCode": "252"
+                  
+                  }, {
+                  
+                  "ID": 205,
+                  
+                  "CountryName": "South Africa",
+                  
+                  "CallingCode": "27"
+                  
+                  }, {
+                  
+                  "ID": 206,
+                  
+                  "CountryName": "South Georgia and the South Sandwich Islands",
+                  
+                  "CallingCode": "500"
+                  
+                  }, {
+                  
+                  "ID": 207,
+                  
+                  "CountryName": "South Korea",
+                  
+                  "CallingCode": "82"
+                  
+                  }, {
+                  
+                  "ID": 208,
+                  
+                  "CountryName": "South Sudan",
+                  
+                  "CallingCode": "211"
+                  
+                  }, {
+                  
+                  "ID": 209,
+                  
+                  "CountryName": "Spain",
+                  
+                  "CallingCode": "34"
+                  
+                  }, {
+                  
+                  "ID": 210,
+                  
+                  "CountryName": "Sri Lanka",
+                  
+                  "CallingCode": "94"
+                  
+                  }, {
+                  
+                  "ID": 211,
+                  
+                  "CountryName": "Sudan",
+                  
+                  "CallingCode": "249"
+                  
+                  }, {
+                  
+                  "ID": 212,
+                  
+                  "CountryName": "Suriname",
+                  
+                  "CallingCode": "597"
+                  
+                  }, {
+                  
+                  "ID": 213,
+                  
+                  "CountryName": "Svalbard and Jan Mayen",
+                  
+                  "CallingCode": "47"
+                  
+                  }, {
+                  
+                  "ID": 214,
+                  
+                  "CountryName": "Swaziland",
+                  
+                  "CallingCode": "268"
+                  
+                  }, {
+                  
+                  "ID": 215,
+                  
+                  "CountryName": "Sweden",
+                  
+                  "CallingCode": "46"
+                  
+                  }, {
+                  
+                  "ID": 216,
+                  
+                  "CountryName": "Switzerland",
+                  
+                  "CallingCode": "41"
+                  
+                  }, {
+                  
+                  "ID": 217,
+                  
+                  "CountryName": "Syria",
+                  
+                  "CallingCode": "963"
+                  
+                  }, {
+                  
+                  "ID": 218,
+                  
+                  "CountryName": "Taiwan",
+                  
+                  "CallingCode": "886"
+                  
+                  }, {
+                  
+                  "ID": 219,
+                  
+                  "CountryName": "Tajikistan",
+                  
+                  "CallingCode": "992"
+                  
+                  }, {
+                  
+                  "ID": 220,
+                  
+                  "CountryName": "Tanzania",
+                  
+                  "CallingCode": "255"
+                  
+                  }, {
+                  
+                  "ID": 221,
+                  
+                  "CountryName": "Thailand",
+                  
+                  "CallingCode": "66"
+                  
+                  }, {
+                  
+                  "ID": 222,
+                  
+                  "CountryName": "Timor-Leste (East Timor)",
+                  
+                  "CallingCode": "670"
+                  
+                  }, {
+                  
+                  "ID": 223,
+                  
+                  "CountryName": "Togo",
+                  
+                  "CallingCode": "228"
+                  
+                  }, {
+                  
+                  "ID": 224,
+                  
+                  "CountryName": "Tokelau",
+                  
+                  "CallingCode": "690"
+                  
+                  }, {
+                  
+                  "ID": 225,
+                  
+                  "CountryName": "Tonga",
+                  
+                  "CallingCode": "676"
+                  
+                  }, {
+                  
+                  "ID": 226,
+                  
+                  "CountryName": "Trinidad and Tobago",
+                  
+                  "CallingCode": "1+868"
+                  
+                  }, {
+                  
+                  "ID": 227,
+                  
+                  "CountryName": "Tunisia",
+                  
+                  "CallingCode": "216"
+                  
+                  }, {
+                  
+                  "ID": 228,
+                  
+                  "CountryName": "Turkey",
+                  
+                  "CallingCode": "90"
+                  
+                  }, {
+                  
+                  "ID": 229,
+                  
+                  "CountryName": "Turkmenistan",
+                  
+                  "CallingCode": "993"
+                  
+                  }, {
+                  
+                  "ID": 230,
+                  
+                  "CountryName": "Turks and Caicos Islands",
+                  
+                  "CallingCode": "1+649"
+                  
+                  }, {
+                  
+                  "ID": 231,
+                  
+                  "CountryName": "Tuvalu",
+                  
+                  "CallingCode": "688"
+                  
+                  }, {
+                  
+                  "ID": 232,
+                  
+                  "CountryName": "Uganda",
+                  
+                  "CallingCode": "256"
+                  
+                  }, {
+                  
+                  "ID": 233,
+                  
+                  "CountryName": "Ukraine",
+                  
+                  "CallingCode": "380"
+                  
+                  }, {
+                  
+                  "ID": 234,
+                  
+                  "CountryName": "United Arab Emirates",
+                  
+                  "CallingCode": "971"
+                  
+                  }, {
+                  
+                  "ID": 235,
+                  
+                  "CountryName": "United Kingdom",
+                  
+                  "CallingCode": "44"
+                  
+                  }, {
+                  
+                  "ID": 236,
+                  
+                  "CountryName": "United States",
+                  
+                  "CallingCode": "1"
+                  
+                  }, {
+                  
+                  "ID": 237,
+                  
+                  "CountryName": "United States Minor Outlying Islands",
+                  
+                  "CallingCode": "NONE"
+                  
+                  }, {
+                  
+                  "ID": 238,
+                  
+                  "CountryName": "Uruguay",
+                  
+                  "CallingCode": "598"
+                  
+                  }, {
+                  
+                  "ID": 239,
+                  
+                  "CountryName": "Uzbekistan",
+                  
+                  "CallingCode": "998"
+                  
+                  }, {
+                  
+                  "ID": 240,
+                  
+                  "CountryName": "Vanuatu",
+                  
+                  "CallingCode": "678"
+                  
+                  }, {
+                  
+                  "ID": 241,
+                  
+                  "CountryName": "Vatican City",
+                  
+                  "CallingCode": "39"
+                  
+                  }, {
+                  
+                  "ID": 242,
+                  
+                  "CountryName": "Venezuela",
+                  
+                  "CallingCode": "58"
+                  
+                  }, {
+                  
+                  "ID": 243,
+                  
+                  "CountryName": "Vietnam",
+                  
+                  "CallingCode": "84"
+                  
+                  }, {
+                  
+                  "ID": 244,
+                  
+                  "CountryName": "Virgin Islands, British",
+                  
+                  "CallingCode": "1+284"
+                  
+                  }, {
+                  
+                  "ID": 245,
+                  
+                  "CountryName": "Virgin Islands, US",
+                  
+                  "CallingCode": "1+340"
+                  
+                  }, {
+                  
+                  "ID": 246,
+                  
+                  "CountryName": "Wallis and Futuna",
+                  
+                  "CallingCode": "681"
+                  
+                  }, {
+                  
+                  "ID": 247,
+                  
+                  "CountryName": "Western Sahara",
+                  
+                  "CallingCode": "212"
+                  
+                  }, {
+                  
+                  "ID": 248,
+                  
+                  "CountryName": "Yemen",
+                  
+                  "CallingCode": "967"
+                  
+                  }, {
+                  
+                  "ID": 249,
+                  
+                  "CountryName": "Zambia",
+                  
+                  "CallingCode": "260"
+                  
+                  }, {
+                  
+                  "ID": 250,
+                  
+                  "CountryName": "Zimbabwe",
+                  
+                  "CallingCode": "263"
+                  
+                  }
+                  
+                  ]
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="SignupPopupView" id="iN0-l3-epB" customClass="SignupPopupView" customModule="soffa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m1N-Xw-g8a">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="13L-qb-Nyy">
+                    <rect key="frame" x="20" y="248" width="335" height="171"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tZ-dk-rG3">
+                            <rect key="frame" x="8" y="8" width="319" height="155"/>
+                            <attributedString key="attributedText">
+                                <fragment>
+                                    <string key="content">Oops!
+Email already exists.</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <font key="NSFont" size="18" name=".AppleSystemUIFont"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="3tZ-dk-rG3" firstAttribute="leading" secondItem="13L-qb-Nyy" secondAttribute="leading" constant="8" id="PVL-8e-0qW"/>
+                        <constraint firstAttribute="height" constant="171" id="bSC-Tm-Kdx"/>
+                        <constraint firstAttribute="trailing" secondItem="3tZ-dk-rG3" secondAttribute="trailing" constant="8" id="dev-j5-eOO"/>
+                        <constraint firstAttribute="bottom" secondItem="3tZ-dk-rG3" secondAttribute="bottom" constant="8" id="uoY-aH-rQj"/>
+                        <constraint firstItem="3tZ-dk-rG3" firstAttribute="top" secondItem="13L-qb-Nyy" secondAttribute="top" constant="8" id="yM4-Qk-sdJ"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxj-yN-tt1">
+                    <rect key="frame" x="330" y="230" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="kG1-Hb-xM7"/>
+                        <constraint firstAttribute="height" constant="40" id="xtD-4L-WHW"/>
+                    </constraints>
+                    <state key="normal" image="close_popup"/>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="m1N-Xw-g8a" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="7R0-uz-Htd"/>
+                <constraint firstItem="13L-qb-Nyy" firstAttribute="centerY" secondItem="m1N-Xw-g8a" secondAttribute="centerY" id="DAi-Jd-hOb"/>
+                <constraint firstItem="m1N-Xw-g8a" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Io2-5O-iaC"/>
+                <constraint firstItem="m1N-Xw-g8a" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Svo-hs-zPt"/>
+                <constraint firstItem="13L-qb-Nyy" firstAttribute="top" secondItem="uxj-yN-tt1" secondAttribute="bottom" constant="-22" id="kBO-Oc-XSJ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="13L-qb-Nyy" secondAttribute="trailing" constant="20" id="lCZ-Ww-pzX"/>
+                <constraint firstItem="uxj-yN-tt1" firstAttribute="leading" secondItem="13L-qb-Nyy" secondAttribute="trailing" constant="-25" id="oB5-bb-PZU"/>
+                <constraint firstItem="13L-qb-Nyy" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="pJO-BJ-eto"/>
+                <constraint firstItem="m1N-Xw-g8a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vRN-Ab-msy"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="buttonClose" destination="uxj-yN-tt1" id="RL9-AQ-1XA"/>
+                <outlet property="contentView" destination="13L-qb-Nyy" id="Gfi-Ps-L8F"/>
+                <outlet property="labelTitle" destination="3tZ-dk-rG3" id="wC5-Tk-h8A"/>
+                <outlet property="shadowView" destination="m1N-Xw-g8a" id="qkW-bo-2mC"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="55.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close_popup" width="86" height="86"/>
+    </resources>
+</document>
